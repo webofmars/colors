@@ -27,20 +27,28 @@ class DockerColors:
     @function
     async def ci(self, source: dagger.Directory) -> None:
         colors = [
-          "blue",
-          "brown",
-          "gold",
-          "gray",
-          "green",
-          "lime",
-          "orange",
-          "pink",
-          "purple",
-          "red",
-          "silver",
-          "teal",
-          "white",
-          "yellow"
+          "aqua", "aquamarine", "azure",
+          "beige", "black", "blue", "brown",
+          "chartreuse", "chocolate", "coral", "crimson", "cyan",
+          "darkblue", "darkgreen", "darkorange", "darkred", "darkviolet",
+          "deeppink", "dodgerblue",
+          "forestgreen", "fuchsia",
+          "gold", "goldenrod", "gray", "green",
+          "hotpink",
+          "indigo", "ivory",
+          "khaki",
+          "lavender", "lightblue", "lightcoral", "lightgreen", "lightpink", "lightyellow",
+          "lime", "limegreen",
+          "magenta", "maroon", "mediumblue", "mediumorchid", "mediumpurple", "mintcream",
+          "navy",
+          "olive", "orange", "orangered", "orchid",
+          "peachpuff", "peru", "pink", "plum", "purple",
+          "red", "rosybrown", "royalblue",
+          "salmon", "sandybrown", "seagreen", "sienna", "silver", "skyblue", "snow",
+          "tan", "teal", "thistle", "tomato", "turquoise",
+          "violet",
+          "wheat", "white",
+          "yellow", "yellowgreen"
         ]
 
         for color in colors:

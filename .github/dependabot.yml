@@ -11,11 +11,11 @@ updates:
         patterns:
           - "*"
 
-  - package-ecosystem: "devcontainers"
-    open-pull-requests-limit: 20
-    directory: "/"
-    schedule:
-      interval: weekly
+  # - package-ecosystem: "devcontainers"
+  #   open-pull-requests-limit: 20
+  #   directory: "/"
+  #   schedule:
+  #     interval: weekly
 
   - package-ecosystem: "docker"
     open-pull-requests-limit: 20
@@ -29,7 +29,7 @@ updates:
 
   - package-ecosystem: "uv"
     open-pull-requests-limit: 20
-    directory: "/"
+    directory: "ci"
     schedule:
       interval: "weekly"
     groups:
