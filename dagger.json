@@ -1,12 +1,16 @@
 {
   "name": "docker-colors",
-  "sdk": "python",
+  "engineVersion": "v0.20.3",
+  "sdk": {
+    "source": "python"
+  },
   "dependencies": [
     {
       "name": "docker",
-      "source": "github.com/purpleclay/daggerverse/docker@2a439e2b327ff561bea05a4edddd5276ac42407f"
+      "source": "github.com/purpleclay/daggerverse/docker@2a439e2b327ff561bea05a4edddd5276ac42407f",
+      "pin": "2a439e2b327ff561bea05a4edddd5276ac42407f"
     }
   ],
   "source": "ci",
-  "engineVersion": "v0.13.3"
+  "disableDefaultFunctionCaching": true
 }
